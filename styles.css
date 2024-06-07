@@ -80,6 +80,10 @@ header nav.menu-desktop ul li {
     padding: 0 40px;
 }
 
+.interface .logo img {
+    margin-top: 15px;
+}
+
 /* ESTILO DO MENU MOBILE */
 .btn-abrir-menu i {
     color: #00FF08;
@@ -207,6 +211,8 @@ section.especialidades .flex {
 }
 
 .especialidades .especialidades-box {
+    max-width: 380px;
+    max-height: 380px;
     color: #FFFFFF;
     padding: 40px;
     border-radius: 20px;
@@ -227,6 +233,10 @@ section.especialidades .flex {
 .especialidades .especialidades-box h3 {
     font-size: 26px;
     margin: 15px 0;
+}
+
+.especialidades .especialidades-box p {
+    font-size: 16px;
 }
 
 /* ESTILO DO SOBRE */
