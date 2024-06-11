@@ -180,12 +180,15 @@
             <div class="interface">
                 <h2 class="titulo">FALA <span>COMIGO.</span></h2>
 
-                <form action="">
+                <form action="https://api.staticforms.xyz/submit" method="post">
                     <input type="text" placeholder="Seu nome completo:" required>
                     <input type="text" placeholder="Seu e-mail:" required>
                     <input type="text" placeholder="Seu celular:">
                     <textarea name="" id="" placeholder="Sua mensagem:" required></textarea>
                     <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+
+                    <input type="hidden" name="accessKey" value="e195e522-226f-4132-b0b7-a59b6810f14c"/>
+                    <input type="hidden" name="redirectTo" value="https://portfolio-gabriel-alpha.vercel.app/#speak/obrigado.html"/>
                 </form>
             </div><!--interface-->
         </section><!--formulario-->
