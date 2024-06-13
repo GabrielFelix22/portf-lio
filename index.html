@@ -21,10 +21,10 @@
 </head>
 
 <body>
-    <header>
+    <header id="head">
         <div class="interface">
             <div class="logo">
-                <a href="#">
+                <a href="#head">
                     <img src="assets/logo-header.png" alt="logo-header">
                 </a>
             </div><!--logo-->
@@ -180,15 +180,12 @@
             <div class="interface">
                 <h2 class="titulo">FALA <span>COMIGO.</span></h2>
 
-                <form action="https://api.staticforms.xyz/submit" method="post">
+                <form action="https://formsubmit.co/gabriel.alves2208@gmail.com" method="POST">
                     <input type="text" placeholder="Seu nome completo:" required>
                     <input type="text" placeholder="Seu e-mail:" required>
                     <input type="text" placeholder="Seu celular:">
                     <textarea name="" id="" placeholder="Sua mensagem:" required></textarea>
                     <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
-
-                    <input type="hidden" name="accessKey" value="e195e522-226f-4132-b0b7-a59b6810f14c"/>
-                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html"/>
                 </form>
             </div><!--interface-->
         </section><!--formulario-->
@@ -199,7 +196,9 @@
             <div class="line-footer">
                 <div class="flex">
                     <div class="logo-footer">
-                        <img src="assets/logo-header.png" alt="Logotipo FELIX">
+                        <a href="#head">
+                            <img src="assets/logo-header.png" alt="Logotipo FELIX">
+                        </a>
                     </div><!--logo-footer-->
                     <div class="btn-social">
                         <a href="https://www.instagram.com/_eufelix2?igsh=NDR6aHJqOTBoNnhm&utm_source=qr"
